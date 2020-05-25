@@ -2,8 +2,8 @@ import os
 import pandas as pd
 import glob
 
-game_files =glob.glob(os.path.join(r'C:\Users\mani4\git\Python-Baseball','games','*.EVE'))
-# game_files = glob.glob(os.path.join(os.getcwd(), 'games', '*.EVE'))
+# game_files =glob.glob(os.path.join(r'C:\Users\mani4\git\Python-Baseball','games','*.EVE'))
+game_files = glob.glob(os.path.join(os.getcwd(), 'games', '*.EVE'))
 game_files.sort()
 # print(game_files)
 
